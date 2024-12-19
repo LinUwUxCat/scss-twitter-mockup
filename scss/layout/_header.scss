@@ -1,0 +1,10 @@
+header{
+    &.sticky{
+        position: sticky;
+        top: 0;
+    }
+    min-height: $header_size;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    z-index: 99 !important;
+}

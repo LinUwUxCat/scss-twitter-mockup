@@ -1,0 +1,12 @@
+footer{
+    &.sticky{
+        align-self: flex-end;
+        position: fixed;
+        bottom: 0;
+    }
+    min-height: $header_size;
+    border-top: 1px solid lightgray;
+    width: 100%;
+    background-color: white;
+    z-index: 99 !important;
+}

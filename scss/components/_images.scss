@@ -1,0 +1,28 @@
+img {
+    &.round{
+        border-radius: 50%;
+    }
+
+    &.profile {
+        width: 55px;
+        height: 55px;
+    }
+    &.profile-small{
+        width: 32px;
+        height: 32px;
+    }
+
+    &.icon{
+        max-width: 23px;
+        max-height: 23px;
+    }
+    &.profile-thread{
+        width: 37px;
+        height: 37px;
+    }
+
+    &.checkmark{
+        width: 14px;
+        height: 14px;
+    }
+}

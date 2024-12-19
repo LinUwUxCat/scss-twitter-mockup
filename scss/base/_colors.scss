@@ -1,0 +1,11 @@
+$faded_text: #687684;
+$link_text: #4C9EEB;
+$text: #141619;
+
+.active{
+    color: $link_text;
+}
+
+.active:hover{
+    cursor: pointer;
+}
